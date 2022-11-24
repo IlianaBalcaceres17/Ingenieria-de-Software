@@ -14,13 +14,14 @@
         android:layout_marginBottom="388dp"
         android:background="#e7dbd2"
         android:minHeight="?attr/actionBarSize"
+        android:radius="12dp"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.541"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView24"
-        app:layout_constraintVertical_bias="0.371" />
+        app:layout_constraintVertical_bias="0.45" />
 
     <TextView
         android:id="@+id/textView45"
@@ -36,6 +37,7 @@
         app:layout_constraintHorizontal_bias="0.032"
         app:layout_constraintStart_toStartOf="@+id/toolbar8"
         app:layout_constraintTop_toTopOf="@+id/toolbar8" />
+
 
     <TextView
         android:id="@+id/textView52"

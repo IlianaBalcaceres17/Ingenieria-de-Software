@@ -43,9 +43,17 @@
         <entry key="..\:/Users/balca/AndroidStudioProjects/IngSoftwareHealthyDogs/app/src/main/res/layout/item_vet.xml" value="0.1175925925925926" />
         <entry key="..\:/Users/balca/AndroidStudioProjects/IngSoftwareHealthyDogs/app/src/main/res/layout/login.xml" value="0.24895833333333334" />
         <entry key="..\:/Users/balca/Ingenieria-de-Software/IngSoftwareHealthyDogs/app/src/main/res/layout/activity_login.xml" value="0.25" />
-        <entry key="..\:/Users/balca/Ingenieria-de-Software/IngSoftwareHealthyDogs/app/src/main/res/layout/fragment_menu.xml" value="0.264" />
+        <entry key="..\:/Users/balca/Ingenieria-de-Software/IngSoftwareHealthyDogs/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/balca/Ingenieria-de-Software/IngSoftwareHealthyDogs/app/src/main/res/layout/fragment_diet.xml" value="0.264" />
+        <entry key="..\:/Users/balca/Ingenieria-de-Software/IngSoftwareHealthyDogs/app/src/main/res/layout/fragment_emergencynumber_list.xml" value="0.264" />
+        <entry key="..\:/Users/balca/Ingenieria-de-Software/IngSoftwareHealthyDogs/app/src/main/res/layout/fragment_fundraising.xml" value="0.25" />
+        <entry key="..\:/Users/balca/Ingenieria-de-Software/IngSoftwareHealthyDogs/app/src/main/res/layout/fragment_hygiene.xml" value="0.264" />
+        <entry key="..\:/Users/balca/Ingenieria-de-Software/IngSoftwareHealthyDogs/app/src/main/res/layout/fragment_menu.xml" value="0.2" />
         <entry key="..\:/Users/balca/Ingenieria-de-Software/IngSoftwareHealthyDogs/app/src/main/res/layout/fragment_menu_pet.xml" value="0.25" />
         <entry key="..\:/Users/balca/Ingenieria-de-Software/IngSoftwareHealthyDogs/app/src/main/res/layout/fragment_menu_pet_care.xml" value="0.25" />
+        <entry key="..\:/Users/balca/Ingenieria-de-Software/IngSoftwareHealthyDogs/app/src/main/res/layout/fragment_menu_social_services.xml" value="0.2" />
+        <entry key="..\:/Users/balca/Ingenieria-de-Software/IngSoftwareHealthyDogs/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Users/balca/Ingenieria-de-Software/IngSoftwareHealthyDogs/app/src/main/res/layout/fragment_routine.xml" value="0.264" />
         <entry key="..\:/Users/balca/Ingenieria-de-Software/IngSoftwareHealthyDogs/app/src/main/res/layout/fragment_second.xml" value="0.25" />
         <entry key="..\:/Users/balca/Ingenieria-de-Software/IngSoftwareHealthyDogs/app/src/main/res/layout/fragment_toys.xml" value="0.25" />
         <entry key="..\:/Users/balca/Ingenieria-de-Software/IngSoftwareHealthyDogs/app/src/main/res/layout/fragment_vet.xml" value="0.25" />
