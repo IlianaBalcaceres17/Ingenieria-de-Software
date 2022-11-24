@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d1bcac">
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="335dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton15"
+        app:srcCompat="@drawable/botonmenu" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="336dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton21"
+        app:srcCompat="@drawable/botonmenu" />
+
+    <ImageButton
+        android:id="@+id/imageButton21"
+        android:layout_width="335dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/botonmenu" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfil de mascota"
+        android:textAlignment="center"
+        android:textColor="#A25050"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="122dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        app:srcCompat="@drawable/petlogo" />
+
+    <ImageButton
+        android:id="@+id/imageButton24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="232dp"
+        android:backgroundTint="#dacbbf"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton21"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton21"
+        app:layout_constraintStart_toStartOf="@+id/imageButton21"
+        app:layout_constraintTop_toTopOf="@+id/imageButton21"
+        app:srcCompat="@drawable/diet" />
+
+    <ImageButton
+        android:id="@+id/imageButton25"
+        android:layout_width="112dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="230dp"
+        android:backgroundTint="#dacbbf"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton15"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton15"
+        app:layout_constraintStart_toStartOf="@+id/imageButton15"
+        app:layout_constraintTop_toTopOf="@+id/imageButton15"
+        app:srcCompat="@drawable/medic" />
+
+    <ImageButton
+        android:id="@+id/imageButton26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="240dp"
+        android:backgroundTint="#dacbbf"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton13"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton13"
+        app:layout_constraintStart_toStartOf="@+id/imageButton13"
+        app:layout_constraintTop_toTopOf="@+id/imageButton13"
+        app:srcCompat="@drawable/care" />
+
+    <ImageButton
+        android:id="@+id/imageButton27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="330dp"
+        android:layout_marginBottom="530dp"
+        android:backgroundTint="#d1bcac"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alimentación"
+        android:textColor="#bb878c"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton21"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton21"
+        app:layout_constraintStart_toEndOf="@+id/imageButton24"
+        app:layout_constraintTop_toTopOf="@+id/imageButton21" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cuidados"
+        android:textColor="#bb878c"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton13"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton13"
+        app:layout_constraintStart_toEndOf="@+id/imageButton26"
+        app:layout_constraintTop_toTopOf="@+id/imageButton13" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datos medicos"
+        android:textColor="#bb878c"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton15"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton25"
+        app:layout_constraintStart_toStartOf="@+id/imageButton15"
+        app:layout_constraintTop_toTopOf="@+id/imageButton15" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

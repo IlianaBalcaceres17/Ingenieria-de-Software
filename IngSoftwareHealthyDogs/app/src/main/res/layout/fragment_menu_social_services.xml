@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d1bcac">
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#ab6c69"
+        app:srcCompat="@drawable/vet"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Números de emergencia"
+        android:textColor="#bb878c"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton31"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton34"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="@+id/imageButton31"
+        app:layout_constraintTop_toTopOf="@+id/imageButton31"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/imageButton31"
+        android:layout_width="335dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView36"
+        app:srcCompat="@drawable/botonmenu" />
+
+    <ImageButton
+        android:id="@+id/imageButton32"
+        android:layout_width="335dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton31"
+        app:srcCompat="@drawable/botonmenu" />
+
+    <ImageButton
+        android:id="@+id/imageButton33"
+        android:layout_width="335dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton32"
+        app:layout_constraintVertical_bias="0.272"
+        app:srcCompat="@drawable/botonmenu" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Servicio Social"
+        android:textAlignment="center"
+        android:textColor="#A25050"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="330dp"
+        android:layout_marginBottom="530dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home" />
+
+    <ImageButton
+        android:id="@+id/imageButton34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="230dp"
+        android:backgroundTint="#dacbbf"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton31"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton31"
+        app:layout_constraintStart_toStartOf="@+id/imageButton31"
+        app:layout_constraintTop_toTopOf="@+id/imageButton31"
+        app:srcCompat="@drawable/number" />
+
+    <ImageButton
+        android:id="@+id/imageButton35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="200dp"
+        android:backgroundTint="#dacbbf"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton32"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButton32"
+        app:srcCompat="@drawable/vaccination" />
+
+    <ImageButton
+        android:id="@+id/imageButton36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:backgroundTint="#dacbbf"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton33"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton33"
+        app:layout_constraintStart_toStartOf="@+id/imageButton33"
+        app:layout_constraintTop_toTopOf="@+id/imageButton33"
+        app:srcCompat="@drawable/fundraising" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Números de emergencia"
+        android:textColor="#bb878c"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton31"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton34"
+        app:layout_constraintStart_toStartOf="@+id/imageButton31"
+        app:layout_constraintTop_toTopOf="@+id/imageButton31" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:text="Campañas de vacunación"
+        android:textColor="#bb878c"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton32"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton32"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageButton35"
+        app:layout_constraintTop_toTopOf="@+id/imageButton32"
+        app:layout_constraintVertical_bias="0.513" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recaudación de fondos"
+        android:textColor="#bb878c"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton33"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton36"
+        app:layout_constraintStart_toStartOf="@+id/imageButton33"
+        app:layout_constraintTop_toTopOf="@+id/imageButton33" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
